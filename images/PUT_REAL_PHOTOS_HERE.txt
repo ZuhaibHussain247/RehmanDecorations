@@ -1,0 +1,1 @@
+Add the real Rehman Decoration photos here, then replace the placeholder divs in the HTML with <img src="images/your-photo.jpg" alt="...">.
