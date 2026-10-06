@@ -33,7 +33,7 @@
       <section class="section contactlayout">
         <form id="whatsappForm">
           <label><span data-i18n="name">Name</span><input id="name" required /></label
-          ><label><span data-i18n="phone">Phone</span><input id="phone" type="tel" required /></label
+          ><label><span data-i18n="phone">Phone</span><input id="phone" type="tel" autocomplete="tel" inputmode="tel" pattern="\+?[0-9\s().-]+" title="Enter a valid phone number with 7 to 15 digits." required /></label
           ><label
             ><span data-i18n="eventType">Event type</span><select id="eventType" required>
               <option value="" data-i18n="selectEvent">Select an event</option>

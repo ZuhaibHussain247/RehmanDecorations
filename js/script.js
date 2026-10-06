@@ -334,9 +334,33 @@ document.addEventListener("DOMContentLoaded", () => {
   }));
 
   const form = document.getElementById("whatsappForm");
-  if (form) form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const text = `Hello Rehman Decoration,\n\nName: ${name.value}\nPhone: ${phone.value}\nEvent: ${eventType.value}\nEvent date: ${eventDate.value || "Not specified"}\nMessage: ${message.value || "No additional message."}`;
-    window.open(`https://wa.me/923179980726?text=${encodeURIComponent(text)}`, "_blank");
-  });
+  if (form) {
+    const phoneInput = form.querySelector("#phone");
+    const eventDateInput = form.querySelector("#eventDate");
+    const today = new Date();
+    eventDateInput.min = `${today.getFullYear()}-${String(
+      today.getMonth() + 1,
+    ).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+
+    phoneInput.addEventListener("input", () => {
+      const digitCount = phoneInput.value.replace(/\D/g, "").length;
+      phoneInput.setCustomValidity(
+        phoneInput.value && (digitCount < 7 || digitCount > 15)
+          ? "Enter a phone number with 7 to 15 digits."
+          : "",
+      );
+    });
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const nameInput = form.querySelector("#name");
+      const eventTypeInput = form.querySelector("#eventType");
+      const messageInput = form.querySelector("#message");
+      const text = `Hello Rehman Decoration,\n\nName: ${nameInput.value}\nPhone: ${phoneInput.value}\nEvent: ${eventTypeInput.value}\nEvent date: ${eventDateInput.value || "Not specified"}\nMessage: ${messageInput.value || "No additional message."}`;
+      window.open(
+        `https://wa.me/923179980726?text=${encodeURIComponent(text)}`,
+        "_blank",
+      );
+    });
+  }
 });
