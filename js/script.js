@@ -1,398 +1,1371 @@
 const translations = {
   en: {
-    titleHome: "Rehman Decoration | Wedding & Event Decoration",
-    titleGallery: "Gallery | Rehman Decoration",
-    titleServices: "Services | Rehman Decoration",
-    titleAbout: "About | Rehman Decoration",
-    titleContact: "Contact | Rehman Decoration",
-    titleTikTok: "TikTok | Rehman Decoration",
+    titleHome:
+      "Rehman Decoration | Wedding & Event Decoration",
+
+    titleGallery:
+      "Gallery | Rehman Decoration",
+
+    titleServices:
+      "Services | Rehman Decoration",
+
+    titleAbout:
+      "About | Rehman Decoration",
+
+    titleContact:
+      "Contact | Rehman Decoration",
+
+    titleTikTok:
+      "TikTok | Rehman Decoration",
+
     home: "Home",
     gallery: "Gallery",
     services: "Services",
     about: "About",
     contact: "Contact",
-    heroEyebrow: "WEDDINGS • EVENTS • DECORATION",
-    hero: "Beautiful stages for unforgettable moments.",
+    tiktok: "TikTok",
+
+    heroEyebrow:
+      "WEDDINGS • EVENTS • DECORATION",
+
+    hero:
+      "Beautiful stages for unforgettable moments.",
+
     heroText:
       "Elegant wedding and event decoration designed around your special day.",
-    viewWork: "View Our Work",
-    getInTouch: "Get in Touch",
-    workEyebrow: "OUR WORK",
-    featured: "Decoration made for your moment.",
+
+    viewWork:
+      "View Our Work",
+
+    getInTouch:
+      "Get in Touch",
+
+    workEyebrow:
+      "OUR WORK",
+
+    featured:
+      "Decoration made for your moment.",
+
     featuredText:
       "From Nikah setups to grand wedding stages, we create elegant spaces for memorable celebrations.",
-    stages: "Wedding Stages",
-    rooms: "Room Decoration",
-    cars: "Car Decoration",
-    stageDescription: "Elegant stage arrangements tailored to your event.",
-    roomDescription: "Beautiful room styling for special celebrations.",
-    carDescription: "Wedding car decoration to complete the occasion.",
-    stagePhoto: "STAGE PHOTO",
-    roomPhotoHome: "ROOM PHOTO",
-    carPhotoHome: "CAR PHOTO",
-    cta: "Planning your next celebration?",
-    whatsappPrompt: "Send your event details on WhatsApp.",
-    servicesEyebrow: "WHAT WE DO",
-    servicesTitle: "Our Services",
+
+    stages:
+      "Wedding Stages",
+
+    rooms:
+      "Room Decoration",
+
+    cars:
+      "Car Decoration",
+
+    stageDescription:
+      "Elegant stage arrangements tailored to your event.",
+
+    roomDescription:
+      "Beautiful room styling for special celebrations.",
+
+    carDescription:
+      "Wedding car decoration to complete the occasion.",
+
+    stagePhoto:
+      "STAGE PHOTO",
+
+    roomPhotoHome:
+      "ROOM PHOTO",
+
+    carPhotoHome:
+      "CAR PHOTO",
+
+    cta:
+      "Planning your next celebration?",
+
+    whatsappPrompt:
+      "Send your event details on WhatsApp.",
+
+    servicesEyebrow:
+      "WHAT WE DO",
+
+    servicesTitle:
+      "Our Services",
+
     servicesIntro:
       "Decoration for weddings, family celebrations and special events.",
-    weddingStageTitle: "Wedding Stages",
+
+    weddingStageTitle:
+      "Wedding Stages",
+
     weddingStageDescription:
       "Elegant stage designs for your wedding celebration.",
-    nikahTitle: "Nikah",
-    nikahDescription: "Beautiful setups for your Nikah ceremony.",
-    engagementTitle: "Engagements",
-    engagementDescription: "Stylish decoration for engagement celebrations.",
-    mehndiTitle: "Mehndi",
-    mehndiDescription: "Colourful and memorable Mehndi setups.",
-    baratTitle: "Barat",
-    baratDescription: "Grand decoration for your Barat celebration.",
-    birthdayTitle: "Birthday Events",
-    birthdayDescription: "Celebration styling for birthdays and family events.",
-    roomServiceTitle: "Room Decoration",
-    roomServiceDescription: "Romantic and elegant room decoration.",
-    carServiceTitle: "Car Decoration",
-    carServiceDescription: "Wedding car decoration to complete the look.",
-    galleryEyebrow: "REHMAN DECORATION",
-    galleryTitle: "Our Work",
-    galleryIntro: "Wedding stages, Nikah, Mehndi, Barat, rooms and cars.",
-    filterAll: "All",
-    filterWedding: "Wedding",
-    filterNikah: "Nikah",
-    filterEngagement: "Engagement",
-    filterMehndi: "Mehndi",
-    filterBarat: "Barat",
-    filterBirthday: "Birthday",
-    filterRoom: "Room",
-    filterCar: "Car",
-    weddingPhoto: "WEDDING STAGE PHOTO",
-    nikahPhoto: "NIKAH PHOTO",
-    engagementPhoto: "ENGAGEMENT PHOTO",
-    mehndiPhoto: "MEHNDI PHOTO",
-    baratPhoto: "BARAT PHOTO",
-    birthdayPhoto: "BIRTHDAY PHOTO",
-    roomPhoto: "ROOM PHOTO",
-    carPhoto: "CAR PHOTO",
-    engagement: "Engagement",
-    birthday: "Birthday",
-    aboutEyebrow: "ABOUT US",
-    aboutTitle: "Made for memorable celebrations.",
+
+    nikahTitle:
+      "Nikah",
+
+    nikahDescription:
+      "Beautiful setups for your Nikah ceremony.",
+
+    engagementTitle:
+      "Engagement",
+
+    engagementDescription:
+      "Stylish decoration for engagement celebrations.",
+
+    mehndiTitle:
+      "Mehndi",
+
+    mehndiDescription:
+      "Colourful and memorable Mehndi setups.",
+
+    baratTitle:
+      "Barat",
+
+    baratDescription:
+      "Grand decoration for your Barat celebration.",
+
+    birthdayTitle:
+      "Birthday Events",
+
+    birthdayDescription:
+      "Celebration styling for birthdays and family events.",
+
+    roomServiceTitle:
+      "Room Decoration",
+
+    roomServiceDescription:
+      "Romantic and elegant room decoration.",
+
+    carServiceTitle:
+      "Car Decoration",
+
+    carServiceDescription:
+      "Wedding car decoration to complete the look.",
+
+    galleryEyebrow:
+      "REHMAN DECORATION",
+
+    galleryTitle:
+      "Our Work",
+
+    galleryIntro:
+      "Wedding stages, Engagements, Mehndi, rooms, birthdays and cars.",
+
+    filterAll:
+      "All",
+
+    filterWedding:
+      "Wedding",
+
+    filterEngagement:
+      "Engagement",
+
+    filterMehndi:
+      "Mehndi",
+
+    filterRoom:
+      "Room",
+
+    filterBirthday:
+      "Birthday",
+
+    filterCar:
+      "Car",
+
+    weddingPhoto:
+      "WEDDING STAGE PHOTO",
+
+    engagementPhoto:
+      "ENGAGEMENT PHOTO",
+
+    mehndiPhoto:
+      "MEHNDI PHOTO",
+
+    birthdayPhoto:
+      "BIRTHDAY PHOTO",
+
+    roomPhoto:
+      "ROOM PHOTO",
+
+    carPhoto:
+      "CAR PHOTO",
+
+    engagement:
+      "Engagement",
+
+    birthday:
+      "Birthday",
+
+    aboutEyebrow:
+      "ABOUT US",
+
+    aboutTitle:
+      "Made for memorable celebrations.",
+
     aboutIntro:
-      "Rehman Decoration creates wedding stages, room decoration, car decoration and event setups designed to make special occasions look their best.",
-    aboutSectionEyebrow: "REHMAN DECORATION",
-    aboutSectionTitle: "Your celebration. Your style.",
+      "Rehman Decoration creates wedding stages, room decoration, car decoration and event setups designed to make special occasions look their best. How you like it is how we make it!!!",
+
+    aboutSectionEyebrow:
+      "REHMAN DECORATION",
+
+    aboutSectionTitle:
+      "Your celebration. Your style.",
+
     aboutText:
       "We focus on attractive decoration, careful presentation and designs that suit the occasion. Whether it is a Nikah, Mehndi, engagement, Barat, birthday or wedding, we aim to create a setting that guests remember.",
-    aboutPhoto: "ADD BUSINESS / STAGE PHOTO",
-    contactEyebrow: "CONTACT",
-    contactTitle: "Let's plan your event.",
+
+    aboutPhoto:
+      "ADD BUSINESS / STAGE PHOTO",
+
+    contactEyebrow:
+      "CONTACT",
+
+    contactTitle:
+      "Let's plan your event.",
+
     contactIntro:
       "Fill in the details below. Your message will open in WhatsApp ready to send.",
-    name: "Name",
-    phone: "Phone",
-    eventType: "Event type",
-    selectEvent: "Select an event",
-    eventDate: "Event date",
-    message: "Message",
-    sendWhatsApp: "Send via WhatsApp",
+
+    name:
+      "Name",
+
+    phone:
+      "Phone",
+
+    eventType:
+      "Event type",
+
+    selectEvent:
+      "Select an event",
+
+    eventDate:
+      "Event date",
+
+    message:
+      "Message",
+
+    sendWhatsApp:
+      "Send via WhatsApp",
+
     formNote:
       "No account or database is required. WhatsApp opens with your enquiry.",
-    directContact: "DIRECT CONTACT",
-    tiktokEyebrow: "FOLLOW OUR WORK",
-    tiktokTitle: "See Rehman Decoration on TikTok.",
+
+    directContact:
+      "DIRECT CONTACT",
+
+    tiktokEyebrow:
+      "FOLLOW OUR WORK",
+
+    tiktokTitle:
+      "See Rehman Decoration on TikTok.",
+
     tiktokIntro:
       "Watch wedding stages, room decoration, car decoration and event setups on our TikTok profile.",
-    openTikTok: "Open TikTok Profile",
-    tiktokFollow: "Follow for new decoration ideas, stages and event setups.",
+
+    openTikTok:
+      "Open TikTok Profile",
+
+    tiktokFollow:
+      "Follow for new decoration ideas, stages and event setups."
   },
+
   ur: {
-    titleHome: "رحمان ڈیکوریشن | شادی اور تقریب کی سجاوٹ",
-    titleGallery: "گیلری | رحمان ڈیکوریشن",
-    titleServices: "خدمات | رحمان ڈیکوریشن",
-    titleAbout: "ہمارے بارے میں | رحمان ڈیکوریشن",
-    titleContact: "رابطہ | رحمان ڈیکوریشن",
-    titleTikTok: "ٹک ٹاک | رحمان ڈیکوریشن",
-    home: "ہوم",
-    gallery: "گیلری",
-    services: "خدمات",
-    about: "ہمارے بارے میں",
-    contact: "رابطہ",
-    heroEyebrow: "شادیاں • تقریبات • سجاوٹ",
-    hero: "یادگار لمحات کے لیے خوبصورت اسٹیج۔",
-    heroText: "آپ کے خاص دن کے لیے خوبصورت شادی اور تقریب کی سجاوٹ۔",
-    viewWork: "ہمارا کام دیکھیں",
-    getInTouch: "رابطہ کریں",
-    workEyebrow: "ہمارا کام",
-    featured: "آپ کے خاص لمحے کے لیے سجاوٹ۔",
+    titleHome:
+      "رحمان ڈیکوریشن | شادی اور تقریب کی سجاوٹ",
+
+    titleGallery:
+      "گیلری | رحمان ڈیکوریشن",
+
+    titleServices:
+      "خدمات | رحمان ڈیکوریشن",
+
+    titleAbout:
+      "ہمارے بارے میں | رحمان ڈیکوریشن",
+
+    titleContact:
+      "رابطہ | رحمان ڈیکوریشن",
+
+    titleTikTok:
+      "ٹک ٹاک | رحمان ڈیکوریشن",
+
+    home:
+      "ہوم",
+
+    gallery:
+      "گیلری",
+
+    services:
+      "خدمات",
+
+    about:
+      "ہمارے بارے میں",
+
+    contact:
+      "رابطہ",
+
+    tiktok:
+      "ٹک ٹاک",
+
+    heroEyebrow:
+      "شادیاں • تقریبات • سجاوٹ",
+
+    hero:
+      "یادگار لمحات کے لیے خوبصورت اسٹیج۔",
+
+    heroText:
+      "آپ کے خاص دن کے لیے خوبصورت شادی اور تقریب کی سجاوٹ۔",
+
+    viewWork:
+      "ہمارا کام دیکھیں",
+
+    getInTouch:
+      "رابطہ کریں",
+
+    workEyebrow:
+      "ہمارا کام",
+
+    featured:
+      "آپ کے خاص لمحے کے لیے سجاوٹ۔",
+
     featuredText:
       "نکاح سے لے کر بڑی شادی کے اسٹیج تک، ہم یادگار تقریبات کے لیے خوبصورت جگہیں بناتے ہیں۔",
-    stages: "شادی کے اسٹیج",
-    rooms: "کمرے کی سجاوٹ",
-    cars: "گاڑی کی سجاوٹ",
-    stageDescription: "آپ کی تقریب کے لیے خوبصورت اسٹیج کی ترتیب۔",
-    roomDescription: "خاص تقریبات کے لیے کمرے کی دلکش سجاوٹ۔",
-    carDescription: "تقریب کو مکمل کرنے کے لیے شادی کی گاڑی کی سجاوٹ۔",
-    stagePhoto: "اسٹیج کی تصویر",
-    roomPhotoHome: "کمرے کی تصویر",
-    carPhotoHome: "گاڑی کی تصویر",
-    cta: "اپنی اگلی تقریب کی تیاری کر رہے ہیں؟",
-    whatsappPrompt: "اپنی تقریب کی تفصیلات واٹس ایپ پر بھیجیں۔",
-    servicesEyebrow: "ہم کیا کرتے ہیں",
-    servicesTitle: "ہماری خدمات",
-    servicesIntro: "شادیوں، خاندانی تقریبات اور خاص مواقع کے لیے سجاوٹ۔",
-    weddingStageTitle: "شادی کے اسٹیج",
-    weddingStageDescription: "شادی کی تقریب کے لیے خوبصورت اسٹیج ڈیزائن۔",
-    nikahTitle: "نکاح",
-    nikahDescription: "آپ کی نکاح کی تقریب کے لیے خوبصورت انتظام۔",
-    engagementTitle: "منگنی",
-    engagementDescription: "منگنی کی تقریبات کے لیے نفیس سجاوٹ۔",
-    mehndiTitle: "مہندی",
-    mehndiDescription: "رنگین اور یادگار مہندی کی سجاوٹ۔",
-    baratTitle: "بارات",
-    baratDescription: "بارات کی تقریب کے لیے شاندار سجاوٹ۔",
-    birthdayTitle: "سالگرہ کی تقریبات",
-    birthdayDescription: "سالگرہ اور خاندانی تقریبات کے لیے خوبصورت سجاوٹ۔",
-    roomServiceTitle: "کمرے کی سجاوٹ",
-    roomServiceDescription: "رومانوی اور خوبصورت کمرے کی سجاوٹ۔",
-    carServiceTitle: "گاڑی کی سجاوٹ",
+
+    stages:
+      "شادی کے اسٹیج",
+
+    rooms:
+      "کمرے کی سجاوٹ",
+
+    cars:
+      "گاڑی کی سجاوٹ",
+
+    stageDescription:
+      "آپ کی تقریب کے لیے خوبصورت اسٹیج کی ترتیب۔",
+
+    roomDescription:
+      "خاص تقریبات کے لیے کمرے کی دلکش سجاوٹ۔",
+
+    carDescription:
+      "تقریب کو مکمل کرنے کے لیے شادی کی گاڑی کی سجاوٹ۔",
+
+    stagePhoto:
+      "اسٹیج کی تصویر",
+
+    roomPhotoHome:
+      "کمرے کی تصویر",
+
+    carPhotoHome:
+      "گاڑی کی تصویر",
+
+    cta:
+      "اپنی اگلی تقریب کی تیاری کر رہے ہیں؟",
+
+    whatsappPrompt:
+      "اپنی تقریب کی تفصیلات واٹس ایپ پر بھیجیں۔",
+
+    servicesEyebrow:
+      "ہم کیا کرتے ہیں",
+
+    servicesTitle:
+      "ہماری خدمات",
+
+    servicesIntro:
+      "شادیوں، خاندانی تقریبات اور خاص مواقع کے لیے سجاوٹ۔",
+
+    weddingStageTitle:
+      "شادی کے اسٹیج",
+
+    weddingStageDescription:
+      "شادی کی تقریب کے لیے خوبصورت اسٹیج ڈیزائن۔",
+
+    nikahTitle:
+      "نکاح",
+
+    nikahDescription:
+      "آپ کی نکاح کی تقریب کے لیے خوبصورت انتظام۔",
+
+    engagementTitle:
+      "منگنی",
+
+    engagementDescription:
+      "منگنی کی تقریبات کے لیے نفیس سجاوٹ۔",
+
+    mehndiTitle:
+      "مہندی",
+
+    mehndiDescription:
+      "رنگین اور یادگار مہندی کی سجاوٹ۔",
+
+    baratTitle:
+      "بارات",
+
+    baratDescription:
+      "بارات کی تقریب کے لیے شاندار سجاوٹ۔",
+
+    birthdayTitle:
+      "سالگرہ کی تقریبات",
+
+    birthdayDescription:
+      "سالگرہ اور خاندانی تقریبات کے لیے خوبصورت سجاوٹ۔",
+
+    roomServiceTitle:
+      "کمرے کی سجاوٹ",
+
+    roomServiceDescription:
+      "رومانوی اور خوبصورت کمرے کی سجاوٹ۔",
+
+    carServiceTitle:
+      "گاڑی کی سجاوٹ",
+
     carServiceDescription:
       "خوبصورت انداز مکمل کرنے کے لیے شادی کی گاڑی کی سجاوٹ۔",
-    galleryEyebrow: "رحمان ڈیکوریشن",
-    galleryTitle: "ہمارا کام",
+
+    galleryEyebrow:
+      "رحمان ڈیکوریشن",
+
+    galleryTitle:
+      "ہمارا کام",
+
     galleryIntro:
-      "شادی کے اسٹیج، نکاح، مہندی، بارات، کمروں اور گاڑیوں کی سجاوٹ۔",
-    filterAll: "سب",
-    filterWedding: "شادی",
-    filterNikah: "نکاح",
-    filterEngagement: "منگنی",
-    filterMehndi: "مہندی",
-    filterBarat: "بارات",
-    filterBirthday: "سالگرہ",
-    filterRoom: "کمرہ",
-    filterCar: "گاڑی",
-    weddingPhoto: "شادی کے اسٹیج کی تصویر",
-    nikahPhoto: "نکاح کی تصویر",
-    engagementPhoto: "منگنی کی تصویر",
-    mehndiPhoto: "مہندی کی تصویر",
-    baratPhoto: "بارات کی تصویر",
-    birthdayPhoto: "سالگرہ کی تصویر",
-    roomPhoto: "کمرے کی تصویر",
-    carPhoto: "گاڑی کی تصویر",
-    engagement: "منگنی",
-    birthday: "سالگرہ",
-    aboutEyebrow: "ہمارے بارے میں",
-    aboutTitle: "یادگار تقریبات کے لیے سجاوٹ۔",
+      "شادی کے اسٹیج، منگنی، مہندی، کمروں، سالگرہ اور گاڑیوں کی سجاوٹ۔",
+
+    filterAll:
+      "سب",
+
+    filterWedding:
+      "شادی",
+
+    filterEngagement:
+      "منگنی",
+
+    filterMehndi:
+      "مہندی",
+
+    filterRoom:
+      "کمرہ",
+
+    filterBirthday:
+      "سالگرہ",
+
+    filterCar:
+      "گاڑی",
+
+    weddingPhoto:
+      "شادی کے اسٹیج کی تصویر",
+
+    engagementPhoto:
+      "منگنی کی تصویر",
+
+    mehndiPhoto:
+      "مہندی کی تصویر",
+
+    birthdayPhoto:
+      "سالگرہ کی تصویر",
+
+    roomPhoto:
+      "کمرے کی تصویر",
+
+    carPhoto:
+      "گاڑی کی تصویر",
+
+    engagement:
+      "منگنی",
+
+    birthday:
+      "سالگرہ",
+
+    aboutEyebrow:
+      "ہمارے بارے میں",
+
+    aboutTitle:
+      "یادگار تقریبات کے لیے سجاوٹ۔",
+
     aboutIntro:
-      "رحمان ڈیکوریشن شادی کے اسٹیج، کمروں، گاڑیوں اور تقریبات کی ایسی سجاوٹ کرتا ہے جو خاص مواقع کو خوبصورت بناتی ہے۔",
-    aboutSectionEyebrow: "رحمان ڈیکوریشن",
-    aboutSectionTitle: "آپ کی تقریب، آپ کا انداز۔",
+      "رحمان ڈیکوریشن شادی کے اسٹیج، کمروں، گاڑیوں اور تقریبات کی ایسی سجاوٹ کرتا ہے جو خاص مواقع کو خوبصورت بناتی ہے۔ آپ جیسا چاہیں، ہم ویسا ہی بناتے ہیں۔",
+
+    aboutSectionEyebrow:
+      "رحمان ڈیکوریشن",
+
+    aboutSectionTitle:
+      "آپ کی تقریب، آپ کا انداز۔",
+
     aboutText:
       "ہم دلکش سجاوٹ، نفیس پیشکش اور موقع کے مطابق ڈیزائن پر توجہ دیتے ہیں۔ نکاح، مہندی، منگنی، بارات، سالگرہ یا شادی ہو، ہماری کوشش ہے کہ مہمان اس تقریب کو یاد رکھیں۔",
-    aboutPhoto: "کاروبار / اسٹیج کی تصویر شامل کریں",
-    contactEyebrow: "رابطہ",
-    contactTitle: "آئیے آپ کی تقریب کا منصوبہ بنائیں۔",
+
+    aboutPhoto:
+      "کاروبار / اسٹیج کی تصویر شامل کریں",
+
+    contactEyebrow:
+      "رابطہ",
+
+    contactTitle:
+      "آئیے آپ کی تقریب کا منصوبہ بنائیں۔",
+
     contactIntro:
       "نیچے تفصیلات درج کریں۔ آپ کا پیغام واٹس ایپ میں بھیجنے کے لیے تیار کھلے گا۔",
-    name: "نام",
-    phone: "فون",
-    eventType: "تقریب کی قسم",
-    selectEvent: "تقریب منتخب کریں",
-    eventDate: "تقریب کی تاریخ",
-    message: "پیغام",
-    sendWhatsApp: "واٹس ایپ پر بھیجیں",
+
+    name:
+      "نام",
+
+    phone:
+      "فون",
+
+    eventType:
+      "تقریب کی قسم",
+
+    selectEvent:
+      "تقریب منتخب کریں",
+
+    eventDate:
+      "تقریب کی تاریخ",
+
+    message:
+      "پیغام",
+
+    sendWhatsApp:
+      "واٹس ایپ پر بھیجیں",
+
     formNote:
       "کسی اکاؤنٹ یا ڈیٹابیس کی ضرورت نہیں۔ آپ کی درخواست کے ساتھ واٹس ایپ کھل جائے گا۔",
-    directContact: "براہ راست رابطہ",
-    tiktokEyebrow: "ہمارا کام دیکھیں",
-    tiktokTitle: "ٹک ٹاک پر رحمان ڈیکوریشن دیکھیں۔",
+
+    directContact:
+      "براہ راست رابطہ",
+
+    tiktokEyebrow:
+      "ہمارا کام دیکھیں",
+
+    tiktokTitle:
+      "ٹک ٹاک پر رحمان ڈیکوریشن دیکھیں۔",
+
     tiktokIntro:
       "ہمارے ٹک ٹاک پروفائل پر شادی کے اسٹیج، کمروں، گاڑیوں اور تقریبات کی سجاوٹ دیکھیں۔",
-    openTikTok: "ٹک ٹاک پروفائل کھولیں",
-    tiktokFollow: "سجاوٹ کے نئے آئیڈیاز اور تقریبات کے لیے ہمیں فالو کریں۔",
+
+    openTikTok:
+      "ٹک ٹاک پروفائل کھولیں",
+
+    tiktokFollow:
+      "سجاوٹ کے نئے آئیڈیاز اور تقریبات کے لیے ہمیں فالو کریں۔"
   },
+
   ps: {
-    titleHome: "رحمان ډیکوریشن | د واده او مراسمو سینګار",
-    titleGallery: "ګالري | رحمان ډیکوریشن",
-    titleServices: "خدمتونه | رحمان ډیکوریشن",
-    titleAbout: "زموږ په اړه | رحمان ډیکوریشن",
-    titleContact: "اړیکه | رحمان ډیکوریشن",
-    titleTikTok: "ټیک‌ټاک | رحمان ډیکوریشن",
-    home: "کور",
-    gallery: "ګالري",
-    services: "خدمتونه",
-    about: "زموږ په اړه",
-    contact: "اړیکه",
-    heroEyebrow: "واده • مراسم • سینګار",
-    hero: "د نه هېریدونکو شېبو لپاره ښکلي سټېجونه.",
-    heroText: "ستاسو د ځانګړې ورځې لپاره ښکلی د واده او مراسمو سینګار.",
-    viewWork: "زموږ کار وګورئ",
-    getInTouch: "اړیکه ونیسئ",
-    workEyebrow: "زموږ کار",
-    featured: "ستاسو د ځانګړې شېبې لپاره سینګار.",
+    titleHome:
+      "رحمان ډیکوریشن | د واده او مراسمو سینګار",
+
+    titleGallery:
+      "ګالري | رحمان ډیکوریشن",
+
+    titleServices:
+      "خدمتونه | رحمان ډیکوریشن",
+
+    titleAbout:
+      "زموږ په اړه | رحمان ډیکوریشن",
+
+    titleContact:
+      "اړیکه | رحمان ډیکوریشن",
+
+    titleTikTok:
+      "ټیک‌ټاک | رحمان ډیکوریشن",
+
+    home:
+      "کور",
+
+    gallery:
+      "ګالري",
+
+    services:
+      "خدمتونه",
+
+    about:
+      "زموږ په اړه",
+
+    contact:
+      "اړیکه",
+
+    tiktok:
+      "ټک ټاک",
+
+    heroEyebrow:
+      "واده • مراسم • سینګار",
+
+    hero:
+      "د نه هېریدونکو شېبو لپاره ښکلي سټېجونه.",
+
+    heroText:
+      "ستاسو د ځانګړې ورځې لپاره ښکلی د واده او مراسمو سینګار.",
+
+    viewWork:
+      "زموږ کار وګورئ",
+
+    getInTouch:
+      "اړیکه ونیسئ",
+
+    workEyebrow:
+      "زموږ کار",
+
+    featured:
+      "ستاسو د ځانګړې شېبې لپاره سینګار.",
+
     featuredText:
       "له نکاح څخه تر لویو ودونو پورې، موږ د یادګارو مراسمو لپاره ښکلي ځایونه جوړوو.",
-    stages: "د واده سټېجونه",
-    rooms: "د کوټې سینګار",
-    cars: "د موټر سینګار",
-    stageDescription: "ستاسو د مراسمو لپاره ښکلی سټېج.",
-    roomDescription: "د ځانګړو مراسمو لپاره د کوټې ښکلی سینګار.",
-    carDescription: "د مراسمو د بشپړولو لپاره د واده موټر سینګار.",
-    stagePhoto: "د سټېج انځور",
-    roomPhotoHome: "د کوټې انځور",
-    carPhotoHome: "د موټر انځور",
-    cta: "د خپلو راتلونکو مراسمو پلان لرئ؟",
-    whatsappPrompt: "د خپلو مراسمو معلومات په واټس‌اپ کې راولېږئ.",
-    servicesEyebrow: "زموږ کارونه",
-    servicesTitle: "زموږ خدمتونه",
-    servicesIntro: "د ودونو، کورنیو او ځانګړو مراسمو لپاره سینګار.",
-    weddingStageTitle: "د واده سټېجونه",
-    weddingStageDescription: "ستاسو د واده لپاره ښکلي سټېجونه.",
-    nikahTitle: "نکاح",
-    nikahDescription: "ستاسو د نکاح مراسمو لپاره ښکلی چمتووالی.",
-    engagementTitle: "کوژده",
-    engagementDescription: "د کوژدې مراسمو لپاره ښکلی سینګار.",
-    mehndiTitle: "مېندي",
-    mehndiDescription: "رنګین او نه هېرېدونکی د مېندي سینګار.",
-    baratTitle: "بارات",
-    baratDescription: "ستاسو د بارات مراسمو لپاره ښکلی سینګار.",
-    birthdayTitle: "د زوکړې مراسم",
-    birthdayDescription: "د زوکړې او کورنیو مراسمو لپاره سینګار.",
-    roomServiceTitle: "د کوټې سینګار",
-    roomServiceDescription: "رومانتيک او ښکلی د کوټې سینګار.",
-    carServiceTitle: "د موټر سینګار",
-    carServiceDescription: "د واده د موټر ښکلی سینګار.",
-    galleryEyebrow: "رحمان ډیکوریشن",
-    galleryTitle: "زموږ کار",
-    galleryIntro: "د واده سټېجونه، نکاح، مېندي، بارات، د کوټو او موټرو سینګار.",
-    filterAll: "ټول",
-    filterWedding: "واده",
-    filterNikah: "نکاح",
-    filterEngagement: "کوژده",
-    filterMehndi: "مېندي",
-    filterBarat: "بارات",
-    filterBirthday: "زوکړه",
-    filterRoom: "کوټه",
-    filterCar: "موټر",
-    weddingPhoto: "د واده د سټېج انځور",
-    nikahPhoto: "د نکاح انځور",
-    engagementPhoto: "د کوژدې انځور",
-    mehndiPhoto: "د مېندي انځور",
-    baratPhoto: "د بارات انځور",
-    birthdayPhoto: "د زوکړې انځور",
-    roomPhoto: "د کوټې انځور",
-    carPhoto: "د موټر انځور",
-    engagement: "کوژده",
-    birthday: "زوکړه",
-    aboutEyebrow: "زموږ په اړه",
-    aboutTitle: "د نه هېرېدونکو مراسمو لپاره.",
+
+    stages:
+      "د واده سټېجونه",
+
+    rooms:
+      "د کوټې سینګار",
+
+    cars:
+      "د موټر سینګار",
+
+    stageDescription:
+      "ستاسو د مراسمو لپاره ښکلی سټېج.",
+
+    roomDescription:
+      "د ځانګړو مراسمو لپاره د کوټې ښکلی سینګار.",
+
+    carDescription:
+      "د مراسمو د بشپړولو لپاره د واده موټر سینګار.",
+
+    stagePhoto:
+      "د سټېج انځور",
+
+    roomPhotoHome:
+      "د کوټې انځور",
+
+    carPhotoHome:
+      "د موټر انځور",
+
+    cta:
+      "د خپلو راتلونکو مراسمو پلان لرئ؟",
+
+    whatsappPrompt:
+      "د خپلو مراسمو معلومات په واټس‌اپ کې راولېږئ.",
+
+    servicesEyebrow:
+      "زموږ کارونه",
+
+    servicesTitle:
+      "زموږ خدمتونه",
+
+    servicesIntro:
+      "د ودونو، کورنیو او ځانګړو مراسمو لپاره سینګار.",
+
+    weddingStageTitle:
+      "د واده سټېجونه",
+
+    weddingStageDescription:
+      "ستاسو د واده لپاره ښکلي سټېجونه.",
+
+    nikahTitle:
+      "نکاح",
+
+    nikahDescription:
+      "ستاسو د نکاح مراسمو لپاره ښکلی چمتووالی.",
+
+    engagementTitle:
+      "کوژده",
+
+    engagementDescription:
+      "د کوژدې مراسمو لپاره ښکلی سینګار.",
+
+    mehndiTitle:
+      "مېندي",
+
+    mehndiDescription:
+      "رنګین او نه هېرېدونکی د مېندي سینګار.",
+
+    baratTitle:
+      "بارات",
+
+    baratDescription:
+      "ستاسو د بارات مراسمو لپاره ښکلی سینګار.",
+
+    birthdayTitle:
+      "د زوکړې مراسم",
+
+    birthdayDescription:
+      "د زوکړې او کورنیو مراسمو لپاره سینګار.",
+
+    roomServiceTitle:
+      "د کوټې سینګار",
+
+    roomServiceDescription:
+      "رومانتيک او ښکلی د کوټې سینګار.",
+
+    carServiceTitle:
+      "د موټر سینګار",
+
+    carServiceDescription:
+      "د واده د موټر ښکلی سینګار.",
+
+    galleryEyebrow:
+      "رحمان ډیکوریشن",
+
+    galleryTitle:
+      "زموږ کار",
+
+    galleryIntro:
+      "د واده سټېجونه، کوژده، مېندي، کوټې، د زوکړې مراسم او موټرونه.",
+
+    filterAll:
+      "ټول",
+
+    filterWedding:
+      "واده",
+
+    filterEngagement:
+      "کوژده",
+
+    filterMehndi:
+      "مېندي",
+
+    filterRoom:
+      "کوټه",
+
+    filterBirthday:
+      "زوکړه",
+
+    filterCar:
+      "موټر",
+
+    weddingPhoto:
+      "د واده د سټېج انځور",
+
+    engagementPhoto:
+      "د کوژدې انځور",
+
+    mehndiPhoto:
+      "د مېندي انځور",
+
+    birthdayPhoto:
+      "د زوکړې انځور",
+
+    roomPhoto:
+      "د کوټې انځور",
+
+    carPhoto:
+      "د موټر انځور",
+
+    engagement:
+      "کوژده",
+
+    birthday:
+      "زوکړه",
+
+    aboutEyebrow:
+      "زموږ په اړه",
+
+    aboutTitle:
+      "د نه هېرېدونکو مراسمو لپاره.",
+
     aboutIntro:
-      "رحمان ډیکوریشن د ودونو سټېجونه، د کوټو او موټرو سینګار او د مراسمو چمتووالی کوي، څو ځانګړي فرصتونه ښکلي شي.",
-    aboutSectionEyebrow: "رحمان ډیکوریشن",
-    aboutSectionTitle: "ستاسو مراسم، ستاسو خوښه.",
+      "رحمان ډیکوریشن د ودونو سټېجونه، د کوټو او موټرو سینګار او د مراسمو چمتووالی کوي، څو ځانګړي فرصتونه ښکلي شي. تاسو چې څنګه یې غواړئ، موږ یې هماغسې جوړوو.",
+
+    aboutSectionEyebrow:
+      "رحمان ډیکوریشن",
+
+    aboutSectionTitle:
+      "ستاسو مراسم، ستاسو خوښه.",
+
     aboutText:
       "موږ ښکلي سینګار، پاکې وړاندې‌کونې او د مناسبت سره برابر ډیزاین ته پام کوو. که نکاح وي، مېندي، کوژده، بارات، د زوکړې ورځ یا واده، هڅه کوو داسې چاپېریال جوړ کړو چې مېلمانه یې یاد وساتي.",
-    aboutPhoto: "د کاروبار / سټېج انځور ورزیات کړئ",
-    contactEyebrow: "اړیکه",
-    contactTitle: "راځئ ستاسو د مراسمو پلان جوړ کړو.",
+
+    aboutPhoto:
+      "د کاروبار / سټېج انځور ورزیات کړئ",
+
+    contactEyebrow:
+      "اړیکه",
+
+    contactTitle:
+      "راځئ ستاسو د مراسمو پلان جوړ کړو.",
+
     contactIntro:
       "لاندې معلومات ولیکئ. ستاسو پیغام به په واټس‌اپ کې د لېږلو لپاره چمتو پرانیستل شي.",
-    name: "نوم",
-    phone: "د ټیلیفون شمېره",
-    eventType: "د مراسمو ډول",
-    selectEvent: "مراسم وټاکئ",
-    eventDate: "د مراسمو نېټه",
-    message: "پیغام",
-    sendWhatsApp: "په واټس‌اپ کې یې ولېږئ",
+
+    name:
+      "نوم",
+
+    phone:
+      "د ټیلیفون شمېره",
+
+    eventType:
+      "د مراسمو ډول",
+
+    selectEvent:
+      "مراسم وټاکئ",
+
+    eventDate:
+      "د مراسمو نېټه",
+
+    message:
+      "پیغام",
+
+    sendWhatsApp:
+      "په واټس‌اپ کې یې ولېږئ",
+
     formNote:
       "حساب یا ډیټابېس ته اړتیا نشته. ستاسو د پوښتنې سره به واټس‌اپ پرانیستل شي.",
-    directContact: "مستقیمه اړیکه",
-    tiktokEyebrow: "زموږ کار وګورئ",
-    tiktokTitle: "رحمان ډیکوریشن په ټیک‌ټاک کې وګورئ.",
+
+    directContact:
+      "مستقیمه اړیکه",
+
+    tiktokEyebrow:
+      "زموږ کار وګورئ",
+
+    tiktokTitle:
+      "رحمان ډیکوریشن په ټیک‌ټاک کې وګورئ.",
+
     tiktokIntro:
       "زموږ په ټیک‌ټاک پاڼه کې د ودونو سټېجونه، د کوټو او موټرو سینګار او د مراسمو چمتووالی وګورئ.",
-    openTikTok: "د ټیک‌ټاک پاڼه پرانیزئ",
-    tiktokFollow: "د سینګار نوي نظرونو او مراسمو لپاره مو تعقیب کړئ.",
-  },
+
+    openTikTok:
+      "د ټیک‌ټاک پاڼه پرانیزئ",
+
+    tiktokFollow:
+      "د سینګار نوي نظرونو او مراسمو لپاره مو تعقیب کړئ."
+  }
 };
 
-function language(lang) {
-  const selectedLanguage = Object.hasOwn(translations, lang) ? lang : "en";
-  const dictionary = translations[selectedLanguage];
 
-  document.documentElement.lang = selectedLanguage;
-  document.documentElement.dir = selectedLanguage === "en" ? "ltr" : "rtl";
-  document.body.classList.toggle("rtl", selectedLanguage !== "en");
-  const pageTitle = document.querySelector("title[data-i18n]");
-  if (pageTitle) pageTitle.textContent = dictionary[pageTitle.dataset.i18n];
-  document.querySelectorAll("[data-i18n]").forEach((element) => {
-    const translation = dictionary[element.dataset.i18n];
-    if (translation) element.textContent = translation;
-  });
+/* ================================
+   CHANGE PHOTO NUMBERS HERE
+================================ */
 
-  const select = document.getElementById("languageSelect");
-  if (select) select.value = selectedLanguage;
+const GALLERY_COUNTS = {
+  wedding: 22,
+  engagement: 1,
+  mehndi: 11,
+  room: 36,
+  birthday: 6,
+  car: 2
+};
 
-  localStorage.setItem("rehmanLanguage", selectedLanguage);
+
+/* ================================
+   LANGUAGE
+================================ */
+
+function getCurrentLanguage() {
+  return (
+    localStorage.getItem(
+      "rehmanLanguage"
+    ) || "en"
+  );
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const year = document.getElementById("year");
-  if (year) year.textContent = new Date().getFullYear();
 
-  language(localStorage.getItem("rehmanLanguage") || "en");
-  const select = document.getElementById("languageSelect");
-  if (select)
-    select.addEventListener("change", (event) => language(event.target.value));
+function getTranslation(
+  key,
+  lang
+) {
+  if (
+    translations[lang] &&
+    translations[lang][key]
+  ) {
+    return translations[lang][key];
+  }
 
-  const menuToggle = document.querySelector(".menu-toggle");
-  const nav = document.querySelector(".nav");
-  if (menuToggle)
-    menuToggle.addEventListener("click", () => nav.classList.toggle("open"));
+  return (
+    translations.en[key] ||
+    key
+  );
+}
 
-  document.querySelectorAll(".filter").forEach((button) =>
-    button.addEventListener("click", () => {
-      document
-        .querySelectorAll(".filter")
-        .forEach((filter) => filter.classList.remove("active"));
-      button.classList.add("active");
-      const category = button.dataset.filter;
-      document.querySelectorAll(".galleryitem").forEach((item) => {
-        item.style.display =
-          category === "all" || item.dataset.category === category
-            ? "block"
-            : "none";
-      });
-    }),
+
+function language(lang) {
+  const selectedLanguage =
+    Object.hasOwn(
+      translations,
+      lang
+    )
+      ? lang
+      : "en";
+
+  const dictionary =
+    translations[
+      selectedLanguage
+    ];
+
+  document.documentElement.lang =
+    selectedLanguage;
+
+  document.documentElement.dir =
+    selectedLanguage === "en"
+      ? "ltr"
+      : "rtl";
+
+  document.body.classList.toggle(
+    "rtl",
+    selectedLanguage !== "en"
   );
 
-  const form = document.getElementById("whatsappForm");
-  if (form) {
-    const phoneInput = form.querySelector("#phone");
-    const eventDateInput = form.querySelector("#eventDate");
-    const today = new Date();
-    eventDateInput.min = `${today.getFullYear()}-${String(
-      today.getMonth() + 1,
-    ).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
 
-    phoneInput.addEventListener("input", () => {
-      const digitCount = phoneInput.value.replace(/\D/g, "").length;
-      phoneInput.setCustomValidity(
-        phoneInput.value && (digitCount < 7 || digitCount > 15)
-          ? "Enter a phone number with 7 to 15 digits."
-          : "",
-      );
-    });
+  const pageTitle =
+    document.querySelector(
+      "title[data-i18n]"
+    );
 
-    form.addEventListener("submit", (event) => {
-      event.preventDefault();
-      const nameInput = form.querySelector("#name");
-      const eventTypeInput = form.querySelector("#eventType");
-      const messageInput = form.querySelector("#message");
-      const text = `Hello Rehman Decoration,\n\nName: ${nameInput.value}\nPhone: ${phoneInput.value}\nEvent: ${eventTypeInput.value}\nEvent date: ${eventDateInput.value || "Not specified"}\nMessage: ${messageInput.value || "No additional message."}`;
-      window.open(
-        `https://wa.me/923179980726?text=${encodeURIComponent(text)}`,
-        "_blank",
-      );
-    });
+  if (pageTitle) {
+    pageTitle.textContent =
+      dictionary[
+        pageTitle.dataset.i18n
+      ];
   }
-});
+
+
+  document
+    .querySelectorAll(
+      "[data-i18n]"
+    )
+    .forEach(
+      (element) => {
+        const translation =
+          dictionary[
+            element.dataset.i18n
+          ];
+
+        if (translation) {
+          element.textContent =
+            translation;
+        }
+      }
+    );
+
+
+  document
+    .querySelectorAll(
+      "[data-i18n-alt]"
+    )
+    .forEach(
+      (element) => {
+        const translation =
+          dictionary[
+            element.dataset.i18nAlt
+          ];
+
+        if (translation) {
+          element.alt =
+            translation;
+        }
+      }
+    );
+
+
+  const select =
+    document.getElementById(
+      "languageSelect"
+    );
+
+  if (select) {
+    select.value =
+      selectedLanguage;
+  }
+
+
+  localStorage.setItem(
+    "rehmanLanguage",
+    selectedLanguage
+  );
+}
+
+
+/* ================================
+   GALLERY
+================================ */
+
+function addGalleryPhotos(
+  folder,
+  prefix,
+  count,
+  category,
+  titleKey,
+  photoKey
+) {
+  const galleryGrid =
+    document.getElementById(
+      "galleryGrid"
+    );
+
+  if (!galleryGrid) {
+    return;
+  }
+
+  const currentLanguage =
+    getCurrentLanguage();
+
+
+  for (
+    let i = 1;
+    i <= count;
+    i++
+  ) {
+    const article =
+      document.createElement(
+        "article"
+      );
+
+    article.className =
+      "galleryitem";
+
+    article.dataset.category =
+      category;
+
+
+    const image =
+      document.createElement(
+        "img"
+      );
+
+    image.className =
+      "photo tall";
+
+    image.src =
+      `images/${folder}/${prefix}-${i}.jpeg`;
+
+    image.alt =
+      getTranslation(
+        photoKey,
+        currentLanguage
+      );
+
+    image.dataset.i18nAlt =
+      photoKey;
+
+
+    const title =
+      document.createElement(
+        "h3"
+      );
+
+    title.dataset.i18n =
+      titleKey;
+
+    title.textContent =
+      getTranslation(
+        titleKey,
+        currentLanguage
+      );
+
+
+    article.appendChild(
+      image
+    );
+
+    article.appendChild(
+      title
+    );
+
+    galleryGrid.appendChild(
+      article
+    );
+  }
+}
+
+
+function generateGalleryPhotos() {
+  addGalleryPhotos(
+    "Wedding",
+    "Wedding",
+    GALLERY_COUNTS.wedding,
+    "wedding",
+    "weddingStageTitle",
+    "weddingPhoto"
+  );
+
+
+  addGalleryPhotos(
+    "Engagement",
+    "Engagement",
+    GALLERY_COUNTS.engagement,
+    "engagement",
+    "engagement",
+    "engagementPhoto"
+  );
+
+
+  addGalleryPhotos(
+    "Mehndi",
+    "Mehndi",
+    GALLERY_COUNTS.mehndi,
+    "mehndi",
+    "mehndiTitle",
+    "mehndiPhoto"
+  );
+
+
+  addGalleryPhotos(
+    "Room",
+    "Room",
+    GALLERY_COUNTS.room,
+    "room",
+    "roomServiceTitle",
+    "roomPhoto"
+  );
+
+
+  addGalleryPhotos(
+    "Birthday",
+    "Birthday",
+    GALLERY_COUNTS.birthday,
+    "birthday",
+    "birthdayTitle",
+    "birthdayPhoto"
+  );
+
+
+  addGalleryPhotos(
+    "Car",
+    "Car",
+    GALLERY_COUNTS.car,
+    "car",
+    "carServiceTitle",
+    "carPhoto"
+  );
+}
+
+
+/* ================================
+   PAGE START
+================================ */
+
+document.addEventListener(
+  "DOMContentLoaded",
+  () => {
+
+    const year =
+      document.getElementById(
+        "year"
+      );
+
+    if (year) {
+      year.textContent =
+        new Date().getFullYear();
+    }
+
+
+    generateGalleryPhotos();
+
+
+    language(
+      localStorage.getItem(
+        "rehmanLanguage"
+      ) || "en"
+    );
+
+
+    const select =
+      document.getElementById(
+        "languageSelect"
+      );
+
+    if (select) {
+      select.addEventListener(
+        "change",
+        (event) => {
+          language(
+            event.target.value
+          );
+        }
+      );
+    }
+
+
+    /* ============================
+       MOBILE MENU
+    ============================ */
+
+    const menuToggle =
+      document.querySelector(
+        ".menu-toggle"
+      );
+
+    const nav =
+      document.querySelector(
+        ".nav"
+      );
+
+    if (
+      menuToggle &&
+      nav
+    ) {
+      menuToggle.addEventListener(
+        "click",
+        () => {
+          nav.classList.toggle(
+            "open"
+          );
+        }
+      );
+    }
+
+
+    /* ============================
+       GALLERY FILTERS
+    ============================ */
+
+    document
+      .querySelectorAll(
+        ".filter"
+      )
+      .forEach(
+        (button) => {
+
+          button.addEventListener(
+            "click",
+            () => {
+
+              document
+                .querySelectorAll(
+                  ".filter"
+                )
+                .forEach(
+                  (filter) => {
+                    filter.classList.remove(
+                      "active"
+                    );
+                  }
+                );
+
+
+              button.classList.add(
+                "active"
+              );
+
+
+              const category =
+                button.dataset.filter;
+
+
+              document
+                .querySelectorAll(
+                  ".galleryitem"
+                )
+                .forEach(
+                  (item) => {
+
+                    if (
+                      category ===
+                      "all" ||
+                      item.dataset
+                        .category ===
+                        category
+                    ) {
+                      item.style.display =
+                        "block";
+                    } else {
+                      item.style.display =
+                        "none";
+                    }
+
+                  }
+                );
+            }
+          );
+        }
+      );
+
+
+    /* ============================
+       WHATSAPP FORM
+    ============================ */
+
+    const form =
+      document.getElementById(
+        "whatsappForm"
+      );
+
+    if (form) {
+
+      const phoneInput =
+        form.querySelector(
+          "#phone"
+        );
+
+      const eventDateInput =
+        form.querySelector(
+          "#eventDate"
+        );
+
+
+      const today =
+        new Date();
+
+
+      if (eventDateInput) {
+        eventDateInput.min =
+          `${today.getFullYear()}-${String(
+            today.getMonth() + 1
+          ).padStart(
+            2,
+            "0"
+          )}-${String(
+            today.getDate()
+          ).padStart(
+            2,
+            "0"
+          )}`;
+      }
+
+
+      if (phoneInput) {
+
+        phoneInput.addEventListener(
+          "input",
+          () => {
+
+            const digitCount =
+              phoneInput.value.replace(
+                /\D/g,
+                ""
+              ).length;
+
+
+            phoneInput.setCustomValidity(
+              phoneInput.value &&
+                (
+                  digitCount < 7 ||
+                  digitCount > 15
+                )
+                ? "Enter a phone number with 7 to 15 digits."
+                : ""
+            );
+          }
+        );
+      }
+
+
+      form.addEventListener(
+        "submit",
+        (event) => {
+
+          event.preventDefault();
+
+
+          const nameInput =
+            form.querySelector(
+              "#name"
+            );
+
+          const eventTypeInput =
+            form.querySelector(
+              "#eventType"
+            );
+
+          const messageInput =
+            form.querySelector(
+              "#message"
+            );
+
+
+          const text =
+            `Hello Rehman Decoration,\n\nName: ${nameInput.value}\nPhone: ${phoneInput ? phoneInput.value : ""}\nEvent: ${eventTypeInput ? eventTypeInput.value : ""}\nEvent date: ${eventDateInput && eventDateInput.value ? eventDateInput.value : "Not specified"}\nMessage: ${messageInput && messageInput.value ? messageInput.value : "No additional message."}`;
+
+
+          window.open(
+            `https://wa.me/923179980726?text=${encodeURIComponent(
+              text
+            )}`,
+            "_blank"
+          );
+        }
+      );
+    }
+  }
+);

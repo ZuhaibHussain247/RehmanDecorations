@@ -3,86 +3,156 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title data-i18n="titleGallery">Gallery | Rehman Decoration</title>
+
+    <title data-i18n="titleGallery">
+      Gallery | Rehman Decoration
+    </title>
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <header class="site-header">
-      <a class="logo" href="index.html"><span>R</span> Rehman Decoration</a
-      ><button class="menu-toggle">☰</button>
+      <a class="logo" href="index.html">
+        <img src="images/logo.jpeg" alt="" /> Rehman Decoration
+      </a>
+
+      <button class="menu-toggle">☰</button>
+
       <nav class="nav">
-        <a href="index.html" data-i18n="home">Home</a
-        ><a href="gallery.html" data-i18n="gallery">Gallery</a
-        ><a href="services.html" data-i18n="services">Services</a
-        ><a href="about.html" data-i18n="about">About</a
-        ><a href="tiktok.html">TikTok</a
-        ><a href="contact.html" data-i18n="contact">Contact</a
-        ><select id="languageSelect">
+        <a href="index.html" data-i18n="home">
+          Home
+        </a>
+
+        <a href="gallery.html" data-i18n="gallery">
+          Gallery
+        </a>
+
+        <a href="services.html" data-i18n="services">
+          Services
+        </a>
+
+        <a href="about.html" data-i18n="about">
+          About
+        </a>
+
+        <a href="tiktok.html" data-i18n="tiktok">
+          TikTok
+        </a>
+
+        <a href="contact.html" data-i18n="contact">
+          Contact
+        </a>
+
+        <select id="languageSelect">
           <option value="en">English</option>
           <option value="ur">اردو</option>
           <option value="ps">پښتو</option>
         </select>
       </nav>
     </header>
+
     <main>
       <section class="pagehero">
-        <p class="eyebrow" data-i18n="galleryEyebrow">REHMAN DECORATION</p>
-        <h1 data-i18n="galleryTitle">Our Work</h1>
-        <p data-i18n="galleryIntro">Wedding stages, Nikah, Mehndi, Barat, rooms and cars.</p>
+        <p
+          class="eyebrow"
+          data-i18n="galleryEyebrow"
+        >
+          REHMAN DECORATION
+        </p>
+
+        <h1 data-i18n="galleryTitle">
+          Our Work
+        </h1>
+
+        <p data-i18n="galleryIntro">
+          Wedding stages, Engagements, Mehndi, rooms,
+          birthdays and cars.
+        </p>
       </section>
+
       <section class="section">
         <div class="filters">
-          <button class="filter active" data-filter="all" data-i18n="filterAll">All</button
-          ><button class="filter" data-filter="wedding" data-i18n="filterWedding">Wedding</button
-          ><button class="filter" data-filter="nikah" data-i18n="filterNikah">Nikah</button
-          ><button class="filter" data-filter="engagement" data-i18n="filterEngagement">Engagement</button
-          ><button class="filter" data-filter="mehndi" data-i18n="filterMehndi">Mehndi</button
-          ><button class="filter" data-filter="barat" data-i18n="filterBarat">Barat</button
-          ><button class="filter" data-filter="birthday" data-i18n="filterBirthday">Birthday</button
-          ><button class="filter" data-filter="room" data-i18n="filterRoom">Room</button
-          ><button class="filter" data-filter="car" data-i18n="filterCar">Car</button>
+          <button
+            class="filter active"
+            data-filter="all"
+            data-i18n="filterAll"
+          >
+            All
+          </button>
+
+          <button
+            class="filter"
+            data-filter="wedding"
+            data-i18n="filterWedding"
+          >
+            Wedding
+          </button>
+
+          <button
+            class="filter"
+            data-filter="engagement"
+            data-i18n="filterEngagement"
+          >
+            Engagement
+          </button>
+
+          <button
+            class="filter"
+            data-filter="mehndi"
+            data-i18n="filterMehndi"
+          >
+            Mehndi
+          </button>
+
+          <button
+            class="filter"
+            data-filter="room"
+            data-i18n="filterRoom"
+          >
+            Room
+          </button>
+
+          <button
+            class="filter"
+            data-filter="birthday"
+            data-i18n="filterBirthday"
+          >
+            Birthday
+          </button>
+
+          <button
+            class="filter"
+            data-filter="car"
+            data-i18n="filterCar"
+          >
+            Car
+          </button>
         </div>
-        <div class="gallerygrid">
-          <article class="galleryitem" data-category="wedding">
-            <div class="photo tall" data-i18n="weddingPhoto">WEDDING STAGE PHOTO</div>
-            <h3 data-i18n="weddingStageTitle">Wedding Stage</h3>
-          </article>
-          <article class="galleryitem" data-category="nikah">
-            <div class="photo tall" data-i18n="nikahPhoto">NIKAH PHOTO</div>
-            <h3 data-i18n="nikahTitle">Nikah</h3>
-          </article>
-          <article class="galleryitem" data-category="engagement">
-            <div class="photo tall" data-i18n="engagementPhoto">ENGAGEMENT PHOTO</div>
-            <h3 data-i18n="engagement">Engagement</h3>
-          </article>
-          <article class="galleryitem" data-category="mehndi">
-            <div class="photo tall" data-i18n="mehndiPhoto">MEHNDI PHOTO</div>
-            <h3 data-i18n="mehndiTitle">Mehndi</h3>
-          </article>
-          <article class="galleryitem" data-category="barat">
-            <div class="photo tall" data-i18n="baratPhoto">BARAT PHOTO</div>
-            <h3 data-i18n="baratTitle">Barat</h3>
-          </article>
-          <article class="galleryitem" data-category="birthday">
-            <div class="photo tall" data-i18n="birthdayPhoto">BIRTHDAY PHOTO</div>
-            <h3 data-i18n="birthdayTitle">Birthday</h3>
-          </article>
-          <article class="galleryitem" data-category="room">
-            <div class="photo tall" data-i18n="roomPhoto">ROOM PHOTO</div>
-            <h3 data-i18n="roomServiceTitle">Room Decoration</h3>
-          </article>
-          <article class="galleryitem" data-category="car">
-            <div class="photo tall" data-i18n="carPhoto">CAR PHOTO</div>
-            <h3 data-i18n="carServiceTitle">Car Decoration</h3>
-          </article>
-        </div>
+
+        <!-- Photos are added automatically with javascript -->
+        <div
+          class="gallerygrid"  
+          id="galleryGrid"
+        ></div>
       </section>
     </main>
+
     <footer>
-      <strong>Rehman Decoration</strong>
-      <p>0317 9980726</p>
-      <small>© <span id="year"></span> Rehman Decoration</small>
+      <strong>
+        Rehman Decoration
+      </strong>
+
+      <p>
+        0317 9980726
+      </p>
+
+      <small>
+        © <span id="year"></span>
+        Rehman Decoration
+      </small>
     </footer>
+
     <script src="js/script.js"></script>
   </body>
 </html>
