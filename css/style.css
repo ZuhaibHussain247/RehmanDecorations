@@ -177,7 +177,8 @@ textarea {
   display: block;
   width: 100%;
   height: 260px;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--surface);
 }
 .cards img.room-card-photo {
   object-position: center 40%;
@@ -240,7 +241,9 @@ textarea {
   display: block;
   width: 100%;
   height: 390px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  background: var(--surface);
 }
 .galleryitem h3 {
   padding: 0 15px 12px;

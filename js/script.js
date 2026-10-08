@@ -829,7 +829,7 @@ const translations = {
 ================================ */
 
 const GALLERY_COUNTS = {
-  wedding: 22,
+  wedding: 23,
   engagement: 1,
   mehndi: 11,
   room: 36,
