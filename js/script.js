@@ -18,12 +18,23 @@ const translations = {
     titleTikTok:
       "TikTok | Rehman Decoration",
 
-    home: "Home",
-    gallery: "Gallery",
-    services: "Services",
-    about: "About",
-    contact: "Contact",
-    tiktok: "TikTok",
+    home:
+      "Home",
+
+    gallery:
+      "Gallery",
+
+    services:
+      "Services",
+
+    about:
+      "About",
+
+    contact:
+      "Contact",
+
+    tiktok:
+      "TikTok",
 
     heroEyebrow:
       "WEDDINGS • EVENTS • DECORATION",
@@ -265,6 +276,7 @@ const translations = {
     tiktokFollow:
       "Follow for new decoration ideas, stages and event setups."
   },
+
 
   ur: {
     titleHome:
@@ -543,6 +555,7 @@ const translations = {
     tiktokFollow:
       "سجاوٹ کے نئے آئیڈیاز اور تقریبات کے لیے ہمیں فالو کریں۔"
   },
+
 
   ps: {
     titleHome:
@@ -824,23 +837,9 @@ const translations = {
 };
 
 
-/* ================================
-   CHANGE PHOTO NUMBERS HERE
-================================ */
-
-const GALLERY_COUNTS = {
-  wedding: 23,
-  engagement: 1,
-  mehndi: 11,
-  room: 36,
-  birthday: 6,
-  car: 2
-};
-
-
-/* ================================
+/* =====================================================
    LANGUAGE
-================================ */
+===================================================== */
 
 function getCurrentLanguage() {
   return (
@@ -883,13 +882,16 @@ function language(lang) {
       selectedLanguage
     ];
 
+
   document.documentElement.lang =
     selectedLanguage;
+
 
   document.documentElement.dir =
     selectedLanguage === "en"
       ? "ltr"
       : "rtl";
+
 
   document.body.classList.toggle(
     "rtl",
@@ -901,6 +903,7 @@ function language(lang) {
     document.querySelector(
       "title[data-i18n]"
     );
+
 
   if (pageTitle) {
     pageTitle.textContent =
@@ -916,10 +919,12 @@ function language(lang) {
     )
     .forEach(
       (element) => {
+
         const translation =
           dictionary[
             element.dataset.i18n
           ];
+
 
         if (translation) {
           element.textContent =
@@ -935,10 +940,12 @@ function language(lang) {
     )
     .forEach(
       (element) => {
+
         const translation =
           dictionary[
             element.dataset.i18nAlt
           ];
+
 
         if (translation) {
           element.alt =
@@ -953,29 +960,37 @@ function language(lang) {
       "languageSelect"
     );
 
+
   if (select) {
     select.value =
       selectedLanguage;
   }
 
+
   document
     .querySelectorAll(
       ".lang-option"
     )
-    .forEach((button) => {
-      const isActive =
-        button.dataset.lang ===
-        selectedLanguage;
+    .forEach(
+      (button) => {
 
-      button.classList.toggle(
-        "active",
-        isActive
-      );
-      button.setAttribute(
-        "aria-pressed",
-        String(isActive)
-      );
-    });
+        const isActive =
+          button.dataset.lang ===
+          selectedLanguage;
+
+
+        button.classList.toggle(
+          "active",
+          isActive
+        );
+
+
+        button.setAttribute(
+          "aria-pressed",
+          String(isActive)
+        );
+      }
+    );
 
 
   localStorage.setItem(
@@ -985,173 +1000,21 @@ function language(lang) {
 }
 
 
-/* ================================
-   GALLERY
-================================ */
-
-function addGalleryPhotos(
-  folder,
-  prefix,
-  count,
-  category,
-  titleKey,
-  photoKey
-) {
-  const galleryGrid =
-    document.getElementById(
-      "galleryGrid"
-    );
-
-  if (!galleryGrid) {
-    return;
-  }
-
-  const currentLanguage =
-    getCurrentLanguage();
-
-
-  for (
-    let i = 1;
-    i <= count;
-    i++
-  ) {
-    const article =
-      document.createElement(
-        "article"
-      );
-
-    article.className =
-      "galleryitem";
-
-    article.dataset.category =
-      category;
-
-
-    const image =
-      document.createElement(
-        "img"
-      );
-
-    image.className =
-      "photo tall";
-
-    image.src =
-      `images/${folder}/${prefix}-${i}.jpeg`;
-
-    image.alt =
-      getTranslation(
-        photoKey,
-        currentLanguage
-      );
-
-    image.dataset.i18nAlt =
-      photoKey;
-
-
-    const title =
-      document.createElement(
-        "h3"
-      );
-
-    title.dataset.i18n =
-      titleKey;
-
-    title.textContent =
-      getTranslation(
-        titleKey,
-        currentLanguage
-      );
-
-
-    article.appendChild(
-      image
-    );
-
-    article.appendChild(
-      title
-    );
-
-    galleryGrid.appendChild(
-      article
-    );
-  }
-}
-
-
-function generateGalleryPhotos() {
-  addGalleryPhotos(
-    "Wedding",
-    "Wedding",
-    GALLERY_COUNTS.wedding,
-    "wedding",
-    "weddingStageTitle",
-    "weddingPhoto"
-  );
-
-
-  addGalleryPhotos(
-    "Engagement",
-    "Engagement",
-    GALLERY_COUNTS.engagement,
-    "engagement",
-    "engagement",
-    "engagementPhoto"
-  );
-
-
-  addGalleryPhotos(
-    "Mehndi",
-    "Mehndi",
-    GALLERY_COUNTS.mehndi,
-    "mehndi",
-    "mehndiTitle",
-    "mehndiPhoto"
-  );
-
-
-  addGalleryPhotos(
-    "Room",
-    "Room",
-    GALLERY_COUNTS.room,
-    "room",
-    "roomServiceTitle",
-    "roomPhoto"
-  );
-
-
-  addGalleryPhotos(
-    "Birthday",
-    "Birthday",
-    GALLERY_COUNTS.birthday,
-    "birthday",
-    "birthdayTitle",
-    "birthdayPhoto"
-  );
-
-
-  addGalleryPhotos(
-    "Car",
-    "Car",
-    GALLERY_COUNTS.car,
-    "car",
-    "carServiceTitle",
-    "carPhoto"
-  );
-}
-
-
-/* ================================
+/* =====================================================
    PAGE START
-================================ */
+===================================================== */
 
 document.addEventListener(
   "DOMContentLoaded",
   () => {
 
+    /* YEAR */
+
     const year =
       document.getElementById(
         "year"
       );
+
 
     if (year) {
       year.textContent =
@@ -1159,13 +1022,16 @@ document.addEventListener(
     }
 
 
-    generateGalleryPhotos();
+    /* LANGUAGE */
+
+    const savedLanguage =
+      localStorage.getItem(
+        "rehmanLanguage"
+      ) || "en";
 
 
     language(
-      localStorage.getItem(
-        "rehmanLanguage"
-      ) || "en"
+      savedLanguage
     );
 
 
@@ -1174,10 +1040,13 @@ document.addEventListener(
         "languageSelect"
       );
 
+
     if (select) {
+
       select.addEventListener(
         "change",
         (event) => {
+
           language(
             event.target.value
           );
@@ -1185,64 +1054,96 @@ document.addEventListener(
       );
     }
 
+
+    /* LANGUAGE SLIDER */
+
     document
       .querySelectorAll(
         ".lang-option"
       )
-      .forEach((button) => {
-        button.addEventListener(
-          "click",
-          () => {
-            const nextLanguage =
-              button.dataset.lang;
+      .forEach(
+        (button) => {
 
-            if (nextLanguage) {
-              language(
+          button.addEventListener(
+            "click",
+            () => {
+
+              const nextLanguage =
+                button.dataset.lang;
+
+
+              if (
                 nextLanguage
-              );
+              ) {
+
+                language(
+                  nextLanguage
+                );
+              }
+
+
+              if (select) {
+
+                select.value =
+                  nextLanguage;
+              }
             }
-
-            if (select) {
-              select.value =
-                nextLanguage;
-            }
-          }
-        );
-      });
+          );
+        }
+      );
 
 
-    /* ============================
+    /* =================================================
        MOBILE MENU
-    ============================ */
+    ================================================= */
 
     const menuToggle =
       document.querySelector(
         ".menu-toggle"
       );
 
+
     const nav =
       document.querySelector(
         ".nav"
       );
 
+
     if (
       menuToggle &&
       nav
     ) {
+
       menuToggle.addEventListener(
         "click",
         () => {
-          nav.classList.toggle(
-            "open"
+
+          const isOpen =
+            nav.classList.toggle(
+              "open"
+            );
+
+
+          menuToggle.setAttribute(
+            "aria-expanded",
+            String(isOpen)
+          );
+
+
+          menuToggle.setAttribute(
+            "aria-label",
+            isOpen
+              ? "Close menu"
+              : "Open menu"
           );
         }
       );
     }
 
 
-    /* ============================
+    /* =================================================
        GALLERY FILTERS
-    ============================ */
+    ================================================= */
 
     document
       .querySelectorAll(
@@ -1261,6 +1162,7 @@ document.addEventListener(
                 )
                 .forEach(
                   (filter) => {
+
                     filter.classList.remove(
                       "active"
                     );
@@ -1289,15 +1191,17 @@ document.addEventListener(
                       "all" ||
                       item.dataset
                         .category ===
-                        category
+                      category
                     ) {
+
                       item.style.display =
-                        "block";
+                        "";
+
                     } else {
+
                       item.style.display =
                         "none";
                     }
-
                   }
                 );
             }
@@ -1306,14 +1210,15 @@ document.addEventListener(
       );
 
 
-    /* ============================
+    /* =================================================
        WHATSAPP FORM
-    ============================ */
+    ================================================= */
 
     const form =
       document.getElementById(
         "whatsappForm"
       );
+
 
     if (form) {
 
@@ -1321,6 +1226,7 @@ document.addEventListener(
         form.querySelector(
           "#phone"
         );
+
 
       const eventDateInput =
         form.querySelector(
@@ -1333,6 +1239,7 @@ document.addEventListener(
 
 
       if (eventDateInput) {
+
         eventDateInput.min =
           `${today.getFullYear()}-${String(
             today.getMonth() + 1
@@ -1363,10 +1270,10 @@ document.addEventListener(
 
             phoneInput.setCustomValidity(
               phoneInput.value &&
-                (
-                  digitCount < 7 ||
-                  digitCount > 15
-                )
+              (
+                digitCount < 7 ||
+                digitCount > 15
+              )
                 ? "Enter a phone number with 7 to 15 digits."
                 : ""
             );
@@ -1387,10 +1294,12 @@ document.addEventListener(
               "#name"
             );
 
+
           const eventTypeInput =
             form.querySelector(
               "#eventType"
             );
+
 
           const messageInput =
             form.querySelector(
@@ -1399,7 +1308,17 @@ document.addEventListener(
 
 
           const text =
-            `Hello Rehman Decoration,\n\nName: ${nameInput.value}\nPhone: ${phoneInput ? phoneInput.value : ""}\nEvent: ${eventTypeInput ? eventTypeInput.value : ""}\nEvent date: ${eventDateInput && eventDateInput.value ? eventDateInput.value : "Not specified"}\nMessage: ${messageInput && messageInput.value ? messageInput.value : "No additional message."}`;
+            `Hello Rehman Decoration,\n\nName: ${nameInput ? nameInput.value : ""}\nPhone: ${phoneInput ? phoneInput.value : ""}\nEvent: ${eventTypeInput ? eventTypeInput.value : ""}\nEvent date: ${
+              eventDateInput &&
+              eventDateInput.value
+                ? eventDateInput.value
+                : "Not specified"
+            }\nMessage: ${
+              messageInput &&
+              messageInput.value
+                ? messageInput.value
+                : "No additional message."
+            }`;
 
 
           window.open(

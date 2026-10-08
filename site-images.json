@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "logo": "images/logo.jpeg"
+  },
+
+  "home": {
+    "hero": "images/Shahid.jpeg",
+    "stage": "images/Wedding/Wedding-1.jpeg",
+    "room": "images/Room/Room-1.jpeg",
+    "car": "images/Car/Car-1.jpeg"
+  },
+
+  "about": {
+    "main": "images/Wedding/Wedding-1.jpeg"
+  },
+
+  "gallery": {
+    "wedding": {
+      "folder": "Wedding",
+      "prefix": "Wedding",
+      "count": 24,
+      "titleKey": "weddingStageTitle",
+      "photoKey": "weddingPhoto"
+    },
+
+    "engagement": {
+      "folder": "Engagement",
+      "prefix": "Engagement",
+      "count": 0,
+      "titleKey": "engagement",
+      "photoKey": "engagementPhoto"
+    },
+
+    "mehndi": {
+      "folder": "Mehndi",
+      "prefix": "Mehndi",
+      "count": 11,
+      "titleKey": "mehndiTitle",
+      "photoKey": "mehndiPhoto"
+    },
+
+    "room": {
+      "folder": "Room",
+      "prefix": "Room",
+      "count": 36,
+      "titleKey": "roomServiceTitle",
+      "photoKey": "roomPhoto"
+    },
+
+    "birthday": {
+      "folder": "Birthday",
+      "prefix": "Birthday",
+      "count": 6,
+      "titleKey": "birthdayTitle",
+      "photoKey": "birthdayPhoto"
+    },
+
+    "car": {
+      "folder": "Car",
+      "prefix": "Car",
+      "count": 2,
+      "titleKey": "carServiceTitle",
+      "photoKey": "carPhoto"
+    }
+  }
+}

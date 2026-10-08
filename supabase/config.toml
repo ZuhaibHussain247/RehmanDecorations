@@ -1,0 +1,2 @@
+[functions.manage-photos]
+verify_jwt = true
