@@ -53,6 +53,6 @@ Then commit and push the website changes so GitHub Pages publishes `admin.html`,
 
 Open that address to see image previews (these are already public website images). Sign in with the owner account to reveal upload controls and enable image removal, then test with a small image. The admin creates a GitHub commit for each upload or removal; GitHub Pages then builds and publishes the updated site automatically. Large uploads are limited to 8 MB.
 
-Gallery uploads preserve JPEG, PNG, WebP, and AVIF formats. The admin can also replace or remove the site logo and homepage/About photo. Removing the logo hides it on site pages; replacing it updates the shared logo reference.
+Images up to 8 MB are resized to fit within 1920 px and compressed before upload; transparent PNGs retain transparency. Gallery uploads are added as optimized JPEG or PNG images. The admin can also replace or remove the site logo and homepage/About photo. Removing the logo hides it on site pages; replacing it updates the shared logo reference.
 
 If the GitHub token expires, create a replacement token and update the `GITHUB_TOKEN` Edge Function secret. A paused Supabase Free project must be restored from the Supabase dashboard before sign-in or admin actions work.
