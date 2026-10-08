@@ -44,7 +44,12 @@
           Contact
         </a>
 
-        <select id="languageSelect">
+        <div class="language-switch" aria-label="Language switch">
+          <button class="lang-option active" type="button" data-lang="en" aria-label="English" aria-pressed="true">EN</button>
+          <button class="lang-option" type="button" data-lang="ur" aria-label="اردو" aria-pressed="false">اردو</button>
+          <button class="lang-option" type="button" data-lang="ps" aria-label="پښتو" aria-pressed="false">پښتو</button>
+        </div>
+        <select id="languageSelect" aria-label="Language" hidden>
           <option value="en">English</option>
           <option value="ur">اردو</option>
           <option value="ps">پښتو</option>

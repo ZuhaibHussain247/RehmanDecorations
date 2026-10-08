@@ -60,6 +60,41 @@ a {
 .nav a:hover {
   color: var(--gold);
 }
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 14px;
+  border: 1px solid rgba(216, 180, 106, 0.4);
+  background: rgba(22, 22, 25, 0.95);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+.lang-option {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 8px 12px;
+  min-width: 56px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.lang-option.active {
+  background: linear-gradient(135deg, #f0d18b, var(--gold));
+  color: #111;
+  box-shadow: 0 8px 18px rgba(216, 180, 106, 0.25);
+}
+.lang-option:hover {
+  color: var(--cream);
+}
+.lang-option.active:hover {
+  color: #111;
+}
 select,
 input,
 textarea {
@@ -368,8 +403,12 @@ body.rtl {
     display: flex;
   }
   .nav a,
-  select {
+  select,
+  .language-switch {
     width: 100%;
+  }
+  .language-switch {
+    justify-content: space-between;
   }
   .cards,
   .split,

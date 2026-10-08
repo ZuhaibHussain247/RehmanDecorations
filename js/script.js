@@ -958,6 +958,25 @@ function language(lang) {
       selectedLanguage;
   }
 
+  document
+    .querySelectorAll(
+      ".lang-option"
+    )
+    .forEach((button) => {
+      const isActive =
+        button.dataset.lang ===
+        selectedLanguage;
+
+      button.classList.toggle(
+        "active",
+        isActive
+      );
+      button.setAttribute(
+        "aria-pressed",
+        String(isActive)
+      );
+    });
+
 
   localStorage.setItem(
     "rehmanLanguage",
@@ -1165,6 +1184,31 @@ document.addEventListener(
         }
       );
     }
+
+    document
+      .querySelectorAll(
+        ".lang-option"
+      )
+      .forEach((button) => {
+        button.addEventListener(
+          "click",
+          () => {
+            const nextLanguage =
+              button.dataset.lang;
+
+            if (nextLanguage) {
+              language(
+                nextLanguage
+              );
+            }
+
+            if (select) {
+              select.value =
+                nextLanguage;
+            }
+          }
+        );
+      });
 
 
     /* ============================
