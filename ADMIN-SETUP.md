@@ -4,7 +4,7 @@ The admin page is hosted at `/admin.html` and is publicly reachable, but photo-m
 
 ## 1. Create the owner account
 
-In Supabase, open **Authentication → Users** and add your own email as a user with a password. Then open **Authentication → Providers → Email** and turn off public sign-ups. Confirm the email address; the function rejects unconfirmed or non-allowlisted accounts.
+In Supabase, open **Authentication → Users** and add your own email as a user with a password. Then open **Authentication → Providers → Email** and make sure the Email provider is enabled for password sign-in. Turn off public sign-ups to prevent new users from registering; this does not disable sign-in for the owner account. Confirm the email address; the function rejects unconfirmed or non-allowlisted accounts.
 
 ## 2. Create a fine-grained GitHub token
 
